@@ -1299,6 +1299,18 @@
 			top: 0;
 			right: -0.5%;
 		}
+		#es-rc #es-rc-content .es-kv__logo {
+			margin: 0;
+			max-width: 315px;
+			margin-bottom: 10px;
+		}
+		#es-rc #es-rc-content .es-kv__logo--2 {
+			max-width: 175px;
+		}
+		#es-rc #es-rc-content .es-kv__title {
+			text-align: left;
+			margin-top: 50px;
+		}
 	}
 	@media screen and (min-width: 998px) {
 		#es-rc #es-rc-content .es-design__img {
@@ -1392,6 +1404,11 @@
 		}
 	}
 
+	@media screen and (min-width: 1350px) {
+		#es-rc #es-rc-content .es-kv__packshot__img {
+        max-height: 500px;
+    }
+	}
 	@media screen and (min-width: 1400px) {
 		#es-rc #es-rc-content .es-kv__packshot__img--mobile {
 			display: none;
@@ -1529,9 +1546,9 @@
 		<div class="es-pre-kv">
 			<div class="es-pre-kv__left">
 				<video class="es-pre-kv__video"
-							 autoplay
-							 loop
-							 muted
+							 autoplay=""
+							 loop=""
+							 muted=""
 							 poster="./img/poster.png">
 					<source src="./img/video.mp4"
 									type="video/mp4">
